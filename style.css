@@ -1,4 +1,4 @@
-* {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,9 +15,8 @@ color: #fff7f0;
 overflow-x: hidden;
 }
 
-/* =========================
-BACKGROUND
-========================= */
+
+
 
 body::before {
 content: "";
@@ -37,7 +36,7 @@ z-index: -2;
 
 }
 
-.background-glow {
+
 position: fixed;
 width: 500px;
 height: 500px;
@@ -48,7 +47,7 @@ pointer-events: none;
 z-index: -1;
 }
 
-.glow-one {
+.glow-one{
 background: #ff267f;
 top: -180px;
 left: -120px;
@@ -66,9 +65,7 @@ left: 30%;
 bottom: -250px;
 }
 
-/* =========================
-NAVIGATION
-========================= */
+
 
 .navbar {
 width: 92%;
@@ -161,9 +158,7 @@ box-shadow: 0 0 25px rgba(255, 40, 127, 0.25);
 
 }
 
-/* =========================
-HERO
-========================= */
+
 
 .hero {
 min-height: 92vh;
@@ -295,9 +290,7 @@ border-color: #ff4c96;
 color: #fff;
 }
 
-/* =========================
-HERO STATS
-========================= */
+
 
 .hero-stats {
 display: flex;
@@ -322,9 +315,7 @@ letter-spacing: 1px;
 margin-top: 5px;
 }
 
-/* =========================
-HERO VISUAL
-========================= */
+
 
 .hero-visual {
 height: 650px;
@@ -520,9 +511,7 @@ animation: float 5s ease-in-out infinite reverse;
 
 }
 
-/* =========================
-COMMON SECTIONS
-========================= */
+
 
 .section {
 width: 88%;
@@ -538,9 +527,6 @@ letter-spacing: 4px;
 margin-bottom: 65px;
 }
 
-/* =========================
-ABOUT
-========================= */
 
 .about-grid {
 display: grid;
@@ -598,9 +584,7 @@ line-height: 1.7;
 color: #ff5598;
 }
 
-/* =========================
-PHILOSOPHY
-========================= */
+
 
 .philosophy {
 width: 100%;
@@ -649,9 +633,7 @@ color: #968c99;
 line-height: 1.8;
 }
 
-/* =========================
-SKILLS
-========================= */
+
 
 .skills-heading {
 display: flex;
@@ -766,9 +748,7 @@ transition: 0.4s;
 width: 100%;
 }
 
-/* =========================
-VISION
-========================= */
+
 
 .vision {
 background:
@@ -854,9 +834,6 @@ font-size: 11px;
 
 }
 
-/* =========================
-JOURNEY
-========================= */
 
 .journey-content {
 max-width: 1000px;
@@ -897,9 +874,6 @@ color: #837985;
 font-size: 12px;
 }
 
-/* =========================
-CONTACT
-========================= */
 
 .contact {
 padding-bottom: 100px;
@@ -973,9 +947,7 @@ letter-spacing: 3px;
 margin-bottom: 8px;
 }
 
-/* =========================
-FOOTER
-========================= */
+
 
 footer {
 width: 88%;
@@ -1011,9 +983,6 @@ color: #ff3788;
 letter-spacing: 2px;
 }
 
-/* =========================
-ANIMATIONS
-========================= */
 
 @keyframes gradientMove {
 0% {
@@ -1082,9 +1051,7 @@ to {
 
 }
 
-/* =========================
-RESPONSIVE
-========================= */
+
 
 @media (max-width: 1000px) {
 
